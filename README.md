@@ -29,7 +29,7 @@ from bbgo import go
 import debots
 
 debots.set_api_keys("OpenAI API Key", "OpenRouter API Key", "Serper API Key") # 填入 API Key
-price = go << "我感兴趣的问题"
+price = go << "我感兴趣的问题" # 填入感兴趣的问题
 
 print(f"price=${price: .2f}")
 ```
