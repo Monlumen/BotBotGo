@@ -72,7 +72,7 @@ debots.set_api_keys()
 web_bot = webbot_ver1()
 
 debots.set_new_messages_verbal(True)
-answer = web_bot.user_call("查询二战死亡的说英语的总人数")
+answer = web_bot.user_call("邓紫棋和五月天的所有同时出场场合?")
 ```
 这样的好处是更轻量级, 对于信息量较少的问题能节省时间和 token 数量. 也便于观察单个 WebBot 的具体行为方式.
 ### 如何调用 WikiBot
