@@ -1,0 +1,1 @@
+PATH_FONT_BODY = "./resources/Arial Unicode.ttf"

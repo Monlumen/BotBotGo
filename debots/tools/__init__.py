@@ -1,0 +1,1 @@
+from .spawn_bots import get_spawn_bots_function
