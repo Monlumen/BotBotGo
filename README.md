@@ -24,7 +24,15 @@ print(f"price=${price: .2f}")
 ```
 ### 修改问题并运行
 将以上问题修改为你感兴趣的问题, 运行 direct_use.py 即可.
+```python
+from bbgo import go
+import debots
 
+debots.set_api_keys("OpenAI API Key", "OpenRouter API Key", "Serper API Key") # 填入 API Key
+price = go << "我感兴趣的问题"
+
+print(f"price=${price: .2f}")
+```
 第一次运行时间可能会较长, 原因是 selenium 会自动下载 ChromeDriver.
 
 调查 + 生成报告总计大约持续 5~10 分钟. 报告会被生成在根目录.
